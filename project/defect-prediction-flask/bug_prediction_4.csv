@@ -1,0 +1,2 @@
+name,version,package_name,wmc,dit,noc,cbo,rfc,lcom,ca,ce,npm,lcom3,loc,dam,moa,mfa,cam,ic,cbm,amc,max_cc,avg_cc,bugs
+xerces,1.3.0,org.apache.xerces.msg.SchemaMessages,3,3,0,0,4,1,0,0,2,0.5,481,0,0,0.974358974,1,0,0,159,1,0.3333,4

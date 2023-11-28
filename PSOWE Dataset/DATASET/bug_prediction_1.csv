@@ -1,0 +1,2 @@
+name,version,package_name,wmc,dit,noc,cbo,rfc,lcom,ca,ce,npm,lcom3,loc,dam,moa,mfa,cam,ic,cbm,amc,max_cc,avg_cc
+ant,1.7,org.apache.tools.ant.AntClassLoader,56,2,2,51,169,1200,37,16,35,0.848863636,1842,0.875,2,0.409638554,0.155844156,1,5,31.60714286,14,2.1964

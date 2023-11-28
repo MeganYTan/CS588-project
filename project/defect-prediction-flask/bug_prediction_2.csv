@@ -1,0 +1,2 @@
+name,version,package_name,wmc,dit,noc,cbo,rfc,lcom,ca,ce,npm,lcom3,loc,dam,moa,mfa,cam,ic,cbm,amc,max_cc,avg_cc,bugs
+camel,1.6,org.apache.camel.processor.interceptor.ExceptionEvent,4,1,0,2,5,0,1,2,4,0.666666667,28,1,2,0,0.4375,0,0,5.25,1,0.75,0

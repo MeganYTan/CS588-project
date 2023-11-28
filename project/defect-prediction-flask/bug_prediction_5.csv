@@ -1,0 +1,2 @@
+name,version,package_name,wmc,dit,noc,cbo,rfc,lcom,ca,ce,npm,lcom3,loc,dam,moa,mfa,cam,ic,cbm,amc,max_cc,avg_cc,bugs
+xalan,2.4.0,org.apache.xpath.compiler.OpMap,21,1,1,12,29,76,11,1,20,0.858333333,409,0.166666667,0,0,0.404761905,0,0,18.19047619,8,1.6667,1
