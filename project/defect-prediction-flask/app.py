@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 # set up open ai
-api_key.api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(
     api_key=api_key,
 )
