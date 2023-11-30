@@ -36,20 +36,19 @@ Features implemented for experiment:
 
 ## Project Structure
 
-PSOWE Dataset - This is the raw data collected. It is collected into a single csv file in project/defect_prediction_flask
-
-<br/><br/>
-project folder - contains the code for the project, which consist of a flask server and a react frontend.
-
-&nbsp; defect-prediction-flask subfolder - contains csv files, which is a summary of the files collected for the project, as well as bug_prediction_<number> files, which are single vector files used with the UI to demonstrate the project. 
-
-&nbsp; &nbsp; app.py contains the flask code for the server
+- PSOWE Dataset: This is the raw data collected. It is collected into a single csv file in project/defect_prediction_flask
 
 <br/>
-&nbsp; defect-prediction-ui subfolder - contains code for the react frontend. CSVUploader component is the main component to upload the csv files
+- project folder: contains the code for the project, which consist of a flask server and a react frontend.
+
+  - defect-prediction-flask subfolder: contains csv files, which is a summary of the files collected for the project, as well as bug_prediction_<number> files, which are single vector files used with the UI to demonstrate the project. 
+
+    - app.py: contains the flask code for the server
+
+  - defect-prediction-ui subfolder: contains code for the react frontend. CSVUploader component is the main component to upload the csv files
 
 <br/>
-Experiment Script.ipnyb - contains the experiment script to run the experiment. The data and results are stored in experiment_data_and_results subfolder. The data used is a randomly selected subset of the original dataset minus the training dataset. Due to OpenAI's API token and rate limits, only 135 rows of data are used for the experiment. 
+- Experiment Script.ipnyb: contains the experiment script to run the experiment. The data and results are stored in experiment_data_and_results subfolder. The data used is a randomly selected subset of the original dataset minus the training dataset. Due to OpenAI's API token and rate limits, only 135 rows of data are used for the experiment. 
 
 
 ## To run the project
@@ -58,7 +57,7 @@ cd project/defect-prediction-flask
 
 pip -r requirements.txt
 
-set OPEN_AI_APIKEY = <your api key>
+set OPENAI_APIKEY = "your-api-key"
 
 python app.py
 
@@ -67,3 +66,10 @@ cd ../defect-prediction-ui
 npm install
 
 npm start
+
+
+## To run the experiment script
+
+set OPENAI_API_KEY = "your-api-key"
+
+Open Experiment Script.ipnyb in jupyter notebook and press play
