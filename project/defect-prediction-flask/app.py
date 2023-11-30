@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 import json
 import os
 import openai
-import json
+
 from openai import OpenAI
 import requests
 
@@ -21,10 +21,9 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 # set up open ai
-api_key = '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'
+api_key.api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(
     api_key=api_key,
-    # api_key = os.getenv("OPENAI_API_KEY")
 )
 
 def send_system_command(command):
@@ -123,7 +122,7 @@ def train_model():
 
     return model
 
-# train randomforestregressor
+# Train randomforestregressor
 model = train_model()
 
 
